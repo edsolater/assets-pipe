@@ -19,6 +19,8 @@ const App = () => {
     border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 300px;
+    width: 200px;
+    height: 300px;
   `
 
   const imageStyle = css`

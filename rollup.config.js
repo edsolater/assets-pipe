@@ -14,8 +14,12 @@ const rollupConfig = defineConfig({
     format: "es",
   },
   plugins: [
-    resolve(), // Resolve modules in node_modules
+    resolve({
+      extensions: [".js", ".jsx", ".ts", ".tsx"], // Resolve these (like relative imports)
+    }), // Resolve modules in node_modules
+
     commonjs(), // Convert CommonJS modules to ES6
+
     babel({
       extensions: [".js", ".jsx", ".ts", ".tsx"], // Process files with these extensions
       babelHelpers: "bundled", // Use bundled Babel helpers

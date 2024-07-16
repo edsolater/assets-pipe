@@ -1,12 +1,15 @@
 /** @jsxImportSource solid-js */
 import { render } from "solid-js/web"
 import { css } from "goober"
-import { createSignal } from "solid-js"
+import { createEffect, createSignal } from "solid-js"
 
 const App = () => {
   const [title, setTitle] = createSignal(document.title)
   const [images, setImages] = createSignal<{ src: string; width: number; height: number }[]>([])
 
+  createEffect(() => {
+    console.log("title(): ", title())
+  })
   chrome.runtime.onMessage.addListener((message) => {
     if (message.action === "sendImages") {
       setImages(message.images)

@@ -13,7 +13,7 @@
   "permissions": ["tabs", "activeTab", "webRequest", "scripting"],
   "content_scripts": [
     {
-      "matches": ["*://*.bilibili.com/*", "*://*.bilibili.com"],
+      "matches": ["https://*.bilibili.com/*"],
       "js": ["dist/content.js"]
     }
   ]

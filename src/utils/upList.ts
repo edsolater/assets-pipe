@@ -1,3 +1,5 @@
+import { shakeNil } from "@edsolater/fnkit"
+
 export const ups = [
   {
     id: "科学认识论",
@@ -7,6 +9,7 @@ export const ups = [
     is: "link",
     creatTime: 1721142465457,
     tags: "",
+    mid: "94727573",
   },
   {
     name: "食贫道",
@@ -16,8 +19,8 @@ export const ups = [
     creatTime: 1721142465457,
     tag: "",
     tags: "",
+    mid: "39627524",
   },
-
   {
     id: "六层楼",
     name: "六层楼",
@@ -26,6 +29,7 @@ export const ups = [
     is: "link",
     creatTime: 1721142465457,
     tags: "",
+    mid: "103388721",
   },
   {
     id: "影视飓风",
@@ -35,6 +39,7 @@ export const ups = [
     is: "link",
     creatTime: 1721142465457,
     tags: "",
+    mid: "946974",
   },
   {
     id: "硬件茶谈",
@@ -45,6 +50,7 @@ export const ups = [
     is: "link",
     creatTime: 1721142465457,
     tags: "科技 科普",
+    mid: "14871346",
   },
   {
     id: "认知金字塔",
@@ -55,6 +61,7 @@ export const ups = [
     is: "link",
     creatTime: 1721142465457,
     tags: "真相 认知",
+    mid: "476859216",
   },
   {
     id: "搅拌摩擦的石叶",
@@ -65,6 +72,7 @@ export const ups = [
     is: "link",
     creatTime: 1721142465457,
     tags: "游戏建模",
+    mid: "834339",
   },
   {
     id: "财经不眠姐",
@@ -74,6 +82,7 @@ export const ups = [
     creatTime: 1721142465457,
     tag: "",
     tags: "",
+    mid: "531131239",
   },
   {
     id: "光速观察站",
@@ -83,6 +92,7 @@ export const ups = [
     creatTime: 1721142465458,
     tag: "",
     tags: "",
+    mid: "383354609",
   },
   {
     id: "科技狐",
@@ -92,6 +102,7 @@ export const ups = [
     tags: "科普 科技数码",
     is: "link",
     creatTime: 1721142465458,
+    mid: "40433405",
   },
   {
     id: "渤海小吏",
@@ -102,6 +113,7 @@ export const ups = [
     tags: "历史 科普",
     is: "link",
     creatTime: 1721142465458,
+    mid: "504934876",
   },
   {
     id: "鬼谷杂谈",
@@ -111,6 +123,7 @@ export const ups = [
     tags: "自然科学 科普",
     is: "link",
     creatTime: 1721142465458,
+    mid: "72270557",
   },
   {
     id: "火柴人AlanBecker",
@@ -121,6 +134,7 @@ export const ups = [
     tags: "想象 数理",
     is: "link",
     creatTime: 1721142465458,
+    mid: "519253600",
   },
   {
     id: "读书的Harry",
@@ -131,6 +145,7 @@ export const ups = [
     tags: "读书 分享 知识",
     is: "link",
     creatTime: 1721142465458,
+    mid: "611092306",
   },
   {
     id: "城市堂",
@@ -141,5 +156,6 @@ export const ups = [
     tags: "经济 宏观趋势",
     is: "link",
     creatTime: 1721142465458,
+    mid: "413276548",
   },
 ]

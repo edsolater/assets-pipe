@@ -1,3 +1,10 @@
-import { fetchUserVideoList } from "./utils/fetchers"
+import { fetchUserVideoList, fetchDetailedVideoInfo } from "./utils/fetchers"
+import { ups } from "./utils/upList"
 
-fetchUserVideoList({ mid: "14577351" })
+fetchUserVideoList({ mid: ups[0].mid }).then((data) => {
+  console.log("👾 data of user video list: ", data)
+})
+
+fetchDetailedVideoInfo({ bvid: "BV11i421y7KQ" }).then((data) => {
+  console.log("👾 data of video info: ", data)
+})
